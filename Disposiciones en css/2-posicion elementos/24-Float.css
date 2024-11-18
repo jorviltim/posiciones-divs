@@ -1,0 +1,33 @@
+.principal
+ {
+   width: 400px;
+   height: 400px;
+   margin: 20px;
+   padding: 10px;
+   border: 2px solid #000006;
+   background-color: orange;
+   
+   }
+
+
+
+.secundario
+ {
+   width: 200px;
+   height: 200px;
+   margin: 20px;
+   padding: 10px;
+   border: 2px solid #000006;
+   background-color: yellow;
+   float: right;
+   }
+ 
+   img{
+    width: 100px;
+    height: 100px;
+    /*float: none;/* el valor es por defecto, no aplica nada nada*/
+    /*float:left; /*hace que el texto se posicione a la derecha de la imagen por que la imagen se posiciona a la izq del texto*/
+    float: inherit; /*HEREDA LA POSICION LACUALTIENE EL ELEMENTO PADRE "SECUNDARIO" FLOAT RIGHT  // SOLO CAMBIANDO EL SECUNDARIO HARAS QUE CAMBIE EL DE IMG */
+    padding: 5px;
+  
+  }

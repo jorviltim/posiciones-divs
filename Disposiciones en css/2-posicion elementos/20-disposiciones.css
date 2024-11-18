@@ -1,0 +1,48 @@
+div{
+    
+    width: 150px;
+    height: 200px;
+    margin: 25px;
+    padding: 25px;
+    color: deeppink;
+    border: 5px solid blue;
+    background-color: blueviolet;
+
+}
+
+div.posicion{
+    border: 5px solid green;
+    background-color: blue;
+    
+    /*position: static;*/ /*posicion estatica cogida conjuntamente de los valores del 
+     div anterior su posicion seria estatica */
+     
+     /*position: relative; /*podemos definir siu posicion respecto a los valores de su posicion actual*/ 
+     /*left: 50px;/* usando posicion relativa la podemos mover a diferentes posiciones */
+     /*top: 50px; */
+
+
+     /*position:  fixed;/* esto hara que la posicion por mucho que deslices la 
+                       pantalla se quede en ese lugar de la pagina*/
+     /*top: 00px;
+     left: 450px;*/
+
+     position:  sticky;/* es como el fixed pero se queda parado en la posicion correspondiente 
+     aunque subas mas arriba ya que se queda  como maximo hacia arriba en la posicion principal del elemenmto*/
+     top: 100px;
+     left: 450px;
+
+}
+
+div.absoluto{ /*para poner otro cuadrado dentro del primero y ajustarlo*/
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 25px;
+    color: deeppink;
+    border: 5px solid #00ff44;
+    background-color: blueviolet;
+}

@@ -1,0 +1,49 @@
+.div1
+ {
+   width: 50px;
+   height: 50px;
+   margin: 25px;
+   padding: 15px;
+   border: 5px solid blue;
+   background-color: aquamarine;
+   color: red;
+   position: relative;
+   left: 100px;
+   top: 100px;
+
+   z-index: 3;/* hace que se muestre el primero de los otros 2 a menor numero mas hacia atras  estara el elemento 
+   a mayor numero mas adelante estara posicionado. */
+
+ }
+ 
+ .div2
+ {
+   width: 100px;
+   height: 100px;
+   margin: 25px;
+   padding: 15px;
+   border: 5px solid  red;
+   background-color: rgb(246, 115, 63);
+   color: rgb(24, 23, 23);
+   position: relative;
+   bottom: 50px;
+
+   z-index: 2;
+
+ }
+
+ .div3
+ {
+   width: 200px;
+   height: 200px;
+   margin: 25px;
+   padding: 15px;
+   border: 5px solid  green;
+   background-color: #3ff651;
+   color: rgb(24, 23, 23);
+   position: relative;
+   bottom: 250px;
+
+   z-index: 1;
+
+ }

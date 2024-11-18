@@ -1,0 +1,27 @@
+h1{
+    visibility: hidden;/* no se muestran titulos 1 y 2 Pero respeta el espacio 
+    que estos estaban ocupando en la pagina*/
+    /*display: none;*//*hace que no se muestren los titulos 1 y 2*/
+}
+
+   h2{
+    display: inline;
+   }
+   a{
+    display: block;/* por defecto vienen en  inline, i en block los ponemos uno encima del otro*/
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    margin: 25px;
+    padding: 15;
+   }
+
+   span{
+    /*display: inline;/* se adapta un cuadrado de brde  en una linea */
+    display: inline-block;/* se respeta las dimensiones de span espaciando la linea lo que ocupa el cuadrado*/
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    margin: 25px;
+    padding: 15;
+   }

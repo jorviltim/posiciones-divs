@@ -1,0 +1,16 @@
+.div1
+ {
+   width: 140px;
+   height: 150px;
+   margin: 10px;
+   padding: 10px;
+   border: 2px solid #000006;
+   background-color: yellow;
+   /*overflow: hidden;/* oculta la parte de texto sobrante */
+   /*overflow: visible;/* como viene por defecto, oseasi hay desbordamiento se vera*/
+   /*overflow: scroll;/* te permite  meter un scroll para subir i bajar dentro de la caja*/
+   overflow: auto;/*si no necesita el scroll horizontal te lo quita y te pone solo el necesario. */
+   overflow-x: hidden;/* oculto el escroll horizontal*/
+   overflow-y: scroll;/* Muestro el scroll vertical*/
+   }
+ 
